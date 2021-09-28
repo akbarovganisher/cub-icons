@@ -133,3 +133,10 @@ ul li:hover:nth-child(5) a::before{
 ul li:hover:nth-child(5) a::after{
     background-color: #e44e76;
 }
+
+@media only screen and (max-width: 576px) {
+    ul li {
+        display: block;
+        margin-top: 45px;
+    }
+}
