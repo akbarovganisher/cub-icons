@@ -134,8 +134,10 @@ ul li:hover:nth-child(5) a::after{
     background-color: #e44e76;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     ul li {
+        display: flex;
+        flex-direction: column;
         display: block;
         margin-top: 45px;
     }
